@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\DictionarySerializer.cs" />
+    <Compile Include="Utils\GenericExtensions.cs" />
+    <Compile Include="Utils\ListSerializer.cs" />
+    <Compile Include="Utils\MatroschkaResolve.cs" />
+    <Compile Include="Utils\TBinaryAccessor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
