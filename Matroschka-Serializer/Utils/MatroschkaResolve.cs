@@ -94,6 +94,14 @@ namespace Matroschka_Serializer.Utils
 	public static class ReflectionExtensions
 	{
 		public static bool IsDictionary(this Type input) => (input.IsGenericType && input.GetGenericTypeDefinition() == typeof(Dictionary<,>));
+
+		public static ulong ValidMetadataToken<T>() => ValidMetadataToken(typeof(T));
+
+		public static ulong ValidMetadataToken(this object input) => ValidMetadataToken(input.GetType());
+
+		public static ulong ValidMetadataToken(this Type input) => unchecked(((ulong)(uint)input.Module.MetadataToken << 32) | (ulong)(uint)input.MetadataToken);
+
+
 	}
 
 	public class TypeSearcher

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matroschka-Serializer", "Matroschka-Serializer\Matroschka-Serializer.csproj", "{64EC100A-7BDB-4C63-AB02-1BE1B46A8793}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matroshka-Sample", "Matroshka-Sample\Matroshka-Sample.csproj", "{B95B77A4-AA4B-417D-AE80-A980B449A45A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{64EC100A-7BDB-4C63-AB02-1BE1B46A8793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64EC100A-7BDB-4C63-AB02-1BE1B46A8793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64EC100A-7BDB-4C63-AB02-1BE1B46A8793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95B77A4-AA4B-417D-AE80-A980B449A45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95B77A4-AA4B-417D-AE80-A980B449A45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95B77A4-AA4B-417D-AE80-A980B449A45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95B77A4-AA4B-417D-AE80-A980B449A45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
